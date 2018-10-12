@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SierraAuth
 {
-    class Program
+    class SierraAuth
     {
         [DllImport("GobiApi.dll")]
         public static extern uint SwiSetFccAuth();
